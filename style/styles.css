@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 20px 0 0;
+}
+.nav-title {
+    color: #E55473;
+    font-weight: 800;
+    font-size: 48px;
+}
+.nav-sub{
+    color: #250e49;
+    font-weight: 800;
+    font-size: 48px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 250px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+/* nav */
+
+/* banner */
+.banner {
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+    gap: 97px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 80px;
+    color: #272727;
+    margin-bottom: 40px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-weight: 700;
+    border: 0;
+    padding: 20px 43px;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+}
+/* banner */
+
+/* Flowers */
+
+.flowers {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flowers-title {
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+    margin-top: 128px;
+}
+
+.flowers-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 48px;
+}
+
+.flowers-box {
+    display: flex;
+    gap: 24px;
+}
+
+.box-1 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.box-2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.box-3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.box-img {
+    padding: 110px 47px 0;
+}
+.box-imgs{
+    padding: 67px 75px 0;
+}
+
+.box-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+/* Flowers */
+
+/* hot-deal */
+.hot-deal-section {
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+}
+
+.deal {
+    display: flex;
+    gap: 190px;
+    align-items: center;
+    padding: 100px 350px;
+}
+
+.deal-title {
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+    margin-bottom: 24px;
+}
+
+.title-sub {
+    font-weight: 800;
+    font-size: 40px;
+    color: #E55473;
+}
+
+.deal-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+/* hot-deal section */
+
+/* Instra-section */
+.insta-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 128px;
+    text-align: center;
+}
+
+.insta-title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.insta-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.insta-flower {
+    display: flex;
+    gap: 24px;
+}
+/* Instra-section */
+
+/* contract section */
+.contact-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.contact {
+    background-image: url(../images/Rectangle\ 9.png);
+    margin-top: 128px;
+    text-align: center;
+    padding: 122px 188px;
+}
+
+.cont-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.conta-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.email {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 23px 513px 22px 23px;
+    border: 0;
+}
+/* contract section */
+
+/* footer */
+.footer {
+    margin-top: 120px;
+    background: #111010;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.sub {
+    color: #FFF;
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 32px;
+}
+
+.footer-sub-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.40);
+}
+/* footer */
